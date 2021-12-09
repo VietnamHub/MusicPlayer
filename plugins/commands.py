@@ -67,8 +67,8 @@ async def start(client, message):
         InlineKeyboardButton("🔥 Source Code 🔥", url='https://github.com/ZauteKm/MusicPlayer'),
     ],
     [
-        InlineKeyboardButton('👥 Group', url='https://t.me/iZaute/5'),
-        InlineKeyboardButton('Channel 📢', url='https://t.me/iZaute/6'),
+        InlineKeyboardButton('👥 Admin', url='https://t.me/owohub'),
+        InlineKeyboardButton('Channel 📢', url='https://t.me/owogram'),
     ],
     [
         InlineKeyboardButton('🆘 Help & Commands 🆘', callback_data='help'),
@@ -86,16 +86,12 @@ async def start(client, message):
 async def show_help(client, message):
     buttons = [
         [
-            InlineKeyboardButton("🔥 Source Code 🔥", url='https://github.com/ZauteKm/MusicPlayer'),
+            InlineKeyboardButton("🔥 Source Code 🔥", url='https://github.com/VietnamHub/MusicPlayer'),
         ],
         [
-            InlineKeyboardButton('👥 Group', url='https://t.me/iZaute/5'),
-            InlineKeyboardButton('Channel 📢', url='https://t.me/iZaute/6'),
+            InlineKeyboardButton('👥 Admin', url='https://t.me/owohub'),
+            InlineKeyboardButton('Channel 📢', url='https://t.me/owogram'),
         ],
-        [
-            InlineKeyboardButton('🔰 How to Deploy 🔰', url='https://t.me/c/josprojects/131'),
-        
-        ]
     ]
     reply_markup = InlineKeyboardMarkup(buttons)
     if msg.get('help') is not None:
