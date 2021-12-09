@@ -1018,7 +1018,7 @@ async def yt_play_list(client, m: Message):
                 markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("📢 Join My Update Channel", url='https://t.me/subin_works')
+                            InlineKeyboardButton("📢 Join My Update Channel", url='https://t.me/owogram')
                         ],
                         [
                             InlineKeyboardButton("🔄 Try Again", url=f"https://telegram.me/GetPlaylistBot?start=subinps_{m.from_user.id}")
@@ -1313,16 +1313,12 @@ allcmd = ["play", "player", "splay", f"splay@{U}", f"play@{U}", f"player@{U}"] +
 async def not_chat(_, m: Message):
     buttons = [
         [
-            InlineKeyboardButton('🔺 Heroku', url='https://youtu.be/FKaAU4Pr2bw'),
-            InlineKeyboardButton('Qovery 🔺', url='https://youtu.be/KC4YdpDGQKg'),
-        ],
-        [
             InlineKeyboardButton('🆘 Help & Commands 🆘', callback_data='help'),       
         ],
         [
-            InlineKeyboardButton('👨‍💻 Developer', url='https://t.me/c/ZauteKm/580'),
-            InlineKeyboardButton('Channel 📢', url='https://t.me/c/josprojects/131')
+            InlineKeyboardButton('👨‍💻 Developer', url='https://t.me/owohub'),
+            InlineKeyboardButton('Channel 📢', url='https://t.me/owogram')
         ]
         ]
-    k=await m.reply("<b>You can't use this bot in this group, for that you have to make your own bot from the [SOURCE CODE](https://github.com/ZauteKm/MusicPlayer) below.</b>", disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup(buttons))
+    k=await m.reply("<b>You can't use this bot in this group, for that you have to make your own bot from the [SOURCE CODE](https://github.com/MusicPlayer/MusicPlayer) below.</b>", disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup(buttons))
     await mp.delete(m)
