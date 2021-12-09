@@ -90,7 +90,7 @@
 <br/>
 
 ```sh
-git clone https://github.com/ZauteKm/MusicPlayer
+git clone https://github.com/VietnamHub/MusicPlayer
 cd MusicPlayer
 pip3 install -r requirements.txt
 # <Create Variables appropriately>
@@ -122,7 +122,7 @@ python3 main.py
 ---
 
 #### Support
-Join Now Telegram [VC Music Live Sets](https://t.me/c/1481808444/131)
+Join Now Telegram [VC Music Live Sets](https://t.me/VietnamHub)
 
 ## Requirements
 
